@@ -1,0 +1,36 @@
+body{
+	width: 400px;
+	height: 550px;
+	margin: 0px;
+	padding: 0px;
+}
+form{
+	border-width: 2px;
+  	border-color: rgb(90, 90, 90);
+  	border-style: solid;
+  	position: absolute;
+  	left: 10px;
+  	top: 5px;
+  	width: 376px;
+  	height: 526px;
+  	padding: 0px;
+}
+h3{
+	margin-top: 15px;
+	font-family: Tahoma;
+	font-size: 22px;
+	text-align: center;
+	font-weight: normal;
+}
+.text{
+	font-family: Tahoma;
+	font-size:31px;
+	text-align: center;
+}
+p{
+	margin-bottom: -3px;
+	text-align: center;
+}
+div{
+	margin-bottom: -25px;
+}
