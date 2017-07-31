@@ -1,0 +1,40 @@
+* {
+	margin:0px;
+	padding: 0px;
+}
+.wrapper{
+	width: 600px;
+	height: 600px;
+	margin: auto;
+}
+td {
+	width: 200px;
+	height: 200px;
+}
+.blackB {
+	width: 200px;
+	height: 200px;
+	background:#fff;
+	background-image: url(./black_bishop-512.png);
+	background-size: cover;
+}
+.whiteK {
+	width: 200px;
+	height: 200px;
+	background:#fff url(./white_knight-512.png);
+	background-position: center;
+	background-size: cover;
+}
+.whiteR {
+	width: 200px;
+	height: 200px;
+	background:#fff url(./white_rook-512.png);
+	background-position: center;
+	background-size: cover;
+}
+.double td:nth-child(odd) {
+	background-color: #850000;
+}
+.mid td:nth-child(even) {
+	background-color: #850000;
+}
